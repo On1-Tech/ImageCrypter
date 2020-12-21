@@ -1,5 +1,6 @@
 from PIL import Image
 import time
+import sys
 
 """ Resimdeki pixellerin RGB değerlerini tutar. """
 RGB_CHARACTER_LIST = []
@@ -9,7 +10,7 @@ RGB_CHARACTER_LIST = []
 """ Encryption edilmiş metini buraya yazıyoruz."""
 OUTPUT = open('output.txt', 'w')
 
-image = Image.open("test.png")
+image = Image.open(sys.argv[1])
 px = image.load()
 byt = image.size
 
