@@ -19,19 +19,18 @@ Bu komuttan sonra test.png adlı bir resim dosyası oluşacaktır. Bu resim dosy
 ```bash
 python3 Decryption.py test.png 
 ```
-
 ## Image
 
 ## Algorithm
 
-*Her karaktere (örnek: a,b,c,&,5 vb.) atanmış bir sayı vardır. Metinde geçen her karakterin sayısal değerini bir listeye ekleriz. Sonra bu sayıları RGB formatına göre şifreliyoruz. Bu şifreleme şöyle çalışmaktadır:
+Her karaktere (örnek: a,b,c,&,5 vb.) atanmış bir sayı vardır. Metinde geçen her karakterin sayısal değerini bir listeye ekleriz. Sonra bu sayıları RGB formatına göre şifreliyoruz. Bu şifreleme şöyle çalışmaktadır:
 
 ```
-0 = (x,Y,x) (0 > x < 255)
-1 = (Y,Y,x) (256 > x < 999)
-2 = (Y,Y,x) (1000 > x < 9999)
-3 = (Y,Y,Yxx) (10.000 > x < 99.999)
-4 = (Y,Y,x) + (Y,x,x) (100.000 > x < 999.999)
+0 = (x,Y,x) (0 > Y < 255)
+1 = (Y,Y,x) (256 > Y < 999)
+2 = (Y,Y,x) (1000 > Y < 9999)
+3 = (Y,Y,Yxx) (10.000 > Y < 99.999)
+4 = (Y,Y,x) + (Y,x,x) (100.000 > Y < 999.999)
 
 ```
 ```
