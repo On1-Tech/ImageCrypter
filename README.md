@@ -45,7 +45,9 @@ RGB listesi'nin ilk elemanı, metnin karakter sayısıdır. Karakter sayısı fa
 ![metin](https://user-images.githubusercontent.com/25556230/102828616-2d8a8280-43f6-11eb-88d2-1f0eeb284c72.png)
 ![dec](https://user-images.githubusercontent.com/25556230/102828611-2b282880-43f6-11eb-990c-2226cc09320f.png)
 ![dec2](https://user-images.githubusercontent.com/25556230/102828615-2c595580-43f6-11eb-8086-4656847b2ed0.png)
-
+## Author
+* Mehmet şerif paşa
+* www.linkedin.com/in/mehmetserifpasa/
 
 
 
