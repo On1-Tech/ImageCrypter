@@ -1,6 +1,6 @@
 # ImageCrypter
 
-Metni RGB formatında şifreleyerek pixelleri resmin içine entegre eder. Bu sayede metin görselde saklanır.
+Metni RGB formatında şifreleyerek pikselleri resmin içine entegre eder. Bu sayede metin görselde saklanır.
 
 
 ## Install
