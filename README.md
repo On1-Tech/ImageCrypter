@@ -19,8 +19,6 @@ Bu komuttan sonra test.png adlı bir resim dosyası oluşacaktır. Bu resim dosy
 ```bash
 python3 Decryption.py test.png 
 ```
-## Image
-
 ## Algorithm
 
 Her karaktere (örnek: a,b,c,&,5 vb.) atanmış bir sayı vardır. Metinde geçen her karakterin sayısal değerini bir listeye ekleriz. Sonra bu sayıları RGB formatına göre şifreliyoruz. Bu şifreleme şöyle çalışmaktadır:
@@ -31,7 +29,6 @@ Her karaktere (örnek: a,b,c,&,5 vb.) atanmış bir sayı vardır. Metinde geçe
 2 = (Y,Y,x) (1000 > Y < 9999)
 3 = (Y,Y,Yxx) (10.000 > Y < 99.999)
 4 = (Y,Y,x) + (Y,x,x) (100.000 > Y < 999.999)
-
 ```
 ```
 x = normal RGB değerini temsil ediyor
@@ -44,6 +41,8 @@ RGB listesi'nin ilk elemanı, metnin karakter sayısıdır. Karakter sayısı fa
 * Eğer karakter sayısı 1000 ile 9999 arasındaysa, karakter sayısını RGB değerindeki (Y,Y,X) baş-orta bölüme koyuyoruz ve 2 sayısını RGB değerindeki (x,x,xxY) son bölümün son sayısına ekliyoruz.
 
 * Eğer karakter sayısı 100.000 ile 999.999 bin arasındaysa bu sefer 2 farklı RGB değeri oluşturuyoruz. Birinci RGB değerini ilk iki bölüme (Y,Y,X), ikinci RGB değerini (Y,x,x) ikinci bölümün birinci bölümüne ekliyoruz.
+## Image
+
 
 
 
