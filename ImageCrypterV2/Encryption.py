@@ -4,7 +4,7 @@ import random
 from PIL import ImageFile
 
 
-image = Image.open(sys.argv[1])
+image = Image.open('test.png')
 px = image.load()
 
 
