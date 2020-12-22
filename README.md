@@ -42,9 +42,13 @@ RGB listesi'nin ilk elemanı, metnin karakter sayısıdır. Karakter sayısı fa
 
 * Eğer karakter sayısı 100.000 ile 999.999 bin arasındaysa bu sefer 2 farklı RGB değeri oluşturuyoruz. Birinci RGB değerini ilk iki bölüme (Y,Y,X), ikinci RGB değerini (Y,x,x) ikinci bölümün birinci bölümüne ekliyoruz.
 ## V1
+### Boş bir resim dosyası yaratarak onun içine metni entegre ediyor.
 ![metin](https://user-images.githubusercontent.com/25556230/102828616-2d8a8280-43f6-11eb-88d2-1f0eeb284c72.png)
 ![dec](https://user-images.githubusercontent.com/25556230/102828611-2b282880-43f6-11eb-990c-2226cc09320f.png)
 ![dec2](https://user-images.githubusercontent.com/25556230/102828615-2c595580-43f6-11eb-8086-4656847b2ed0.png)
+## V2
+### Var olan bir resim dosyası üzerine metni entegre ediyor.
+
 ## Author
 * Mehmet şerif paşa
 * www.linkedin.com/in/mehmetserifpasa/
