@@ -48,7 +48,7 @@ RGB listesi'nin ilk elemanı, metnin karakter sayısıdır. Karakter sayısı fa
 ![dec2](https://user-images.githubusercontent.com/25556230/102828615-2c595580-43f6-11eb-8086-4656847b2ed0.png)
 ## V2
 ### Var olan bir resim dosyası üzerine metni entegre ediyor.
-
+![v2](https://user-images.githubusercontent.com/25556230/102892589-281e4e00-4471-11eb-991a-076abf6f6477.png)
 ## Author
 * Mehmet şerif paşa
 * www.linkedin.com/in/mehmetserifpasa/
