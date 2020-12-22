@@ -6,7 +6,7 @@ Metni RGB formatında şifreleyerek pikselleri resmin içine entegre eder. Bu sa
 ## Install
 ```bash
 git clone https://github.com/mehmetserifpasa/ImageCrypter
-cd ImageCrypter/PictureEncryption/
+cd ImageCrypter/v1 and v2
 python3 Encryption.py file.txt
 ```
 
